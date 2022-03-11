@@ -3,3 +3,4 @@ export const AddNumbers = () => {
 };
 
 export { Button } from "./Components/Button";
+export { Theme } from "./Theme";
