@@ -6,12 +6,14 @@
   "main": "dist/main.js",
   "module": "dist/module.js",
   "types": "dist/types.d.ts",
+  "type": "module",
   "scripts": {
     "start": "npm run storybook",
     "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "plop": "plop"
   },
   "repository": {
     "type": "git",
@@ -40,6 +42,7 @@
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^2.0.6",
     "parcel": "^2.3.2",
+    "plop": "^3.0.5",
     "typescript": "^4.6.2"
   },
   "dependencies": {
