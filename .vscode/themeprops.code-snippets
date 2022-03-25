@@ -1,0 +1,7 @@
+{
+  "theme props": {
+    "prefix": "stp",
+    "body": ["(props) => props.theme.$1"],
+    "description": "theme props"
+  }
+}
