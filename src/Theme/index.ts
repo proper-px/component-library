@@ -1,12 +1,10 @@
 import { DefaultTheme } from "styled-components";
+import { ButtonTheme } from "../Components/Button";
+
+export type IButtonVariants = "primary" | "secondary";
 
 const Theme: DefaultTheme = {
-  button: {
-    padding: "6px 10px",
-    borderWidth: "1px",
-    borderRadius: "4px",
-    borderStyle: "solid",
-  },
+  ...ButtonTheme,
 };
 
 export { Theme };

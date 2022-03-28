@@ -14,4 +14,5 @@ export const Primary = Template.bind({});
 
 Primary.args = {
   label: "Button",
+  colortype: "primary",
 };
