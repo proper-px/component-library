@@ -1,9 +1,14 @@
 import "styled-components";
 
-// and extend them!
+interface IButtonTheme {
+  padding: string;
+  borderWidth: string;
+  borderStyle: string;
+  borderRadius: string;
+}
+
 declare module "styled-components" {
   export interface DefaultTheme {
-    borderRadius: string;
-    border: string;
+    button: IButtonTheme;
   }
 }
