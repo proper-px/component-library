@@ -1,4 +1,5 @@
 import "styled-components";
+import { IColors } from "./Colors";
 
 interface IButtonVariantProps {
   backgroundColor: string;
@@ -24,5 +25,10 @@ interface IButtonTheme {
 declare module "styled-components" {
   export interface DefaultTheme {
     button: IButtonTheme;
+    colors: {
+      core: IColors;
+      theme: IColors;
+      levels: IColors;
+    };
   }
 }
